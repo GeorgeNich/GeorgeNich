@@ -6,7 +6,7 @@
 
 ## Computer Science Graduate · Software Development
 
-I'm **George Nicholson**, a Bachelor of Computer Science graduate from **Deakin University**, based in Melbourne. I build applications that connect interfaces, data and the systems behind them—from real-time browser communication to geospatial pipelines and interactive 3D simulation.
+I'm **George Nicholson**, a Bachelor of Computer Science graduate from **Deakin University**, based in Melbourne. I build applications that connect interfaces, data and the systems behind them rangingfrom real-time browser communication to geospatial pipelines and interactive 3D simulation.
 
 My experience spans independent software projects, an **IT placement at ITConnexion working on a healthcare application**, and university work in algorithms, concurrent programming, machine learning and embedded systems.
 
