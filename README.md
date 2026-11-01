@@ -1,4 +1,4 @@
-<img src="assets/profile-banner.svg" width="100%" alt="George Nicholson — Computer Science graduate in Melbourne. Software engineering, data and systems.">
+<img src="assets/profile-banner.svg" width="100%" alt="George Nicholson — Full-stack developer and Computer Science graduate in Melbourne.">
 
 <p align="center"><a href="https://georgenich.github.io"><strong>Portfolio</strong></a> &nbsp; · &nbsp; <a href="https://github.com/GeorgeNich?tab=repositories">Explore my work</a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/georgenicholson1998/">LinkedIn</a> &nbsp; · &nbsp; <a href="mailto:george.nicholson1998@gmail.com">Email</a></p>
 
@@ -18,7 +18,7 @@ My experience spans independent software projects, a **software development plac
 
 ### Melbourne Traffic Simulator
 
-[<img src="assets/melbourne-showcase.svg" width="100%" alt="Melbourne Traffic Simulator: 3D city and traffic replay. Included baseline: 49,810 building pieces, 1,459 distinct vehicles across 15 minutes.">](https://github.com/GeorgeNich/Melbourne-traffic-simulator)
+[<img src="assets/melbourne-showcase.svg" width="100%" alt="Melbourne Traffic Simulator: an interactive 3D city and traffic replay. Calibrated against 45 signalised intersections; 99.7% of vehicle positions on the carriageway; 15-minute seekable replay.">](https://github.com/GeorgeNich/Melbourne-traffic-simulator)
 
 <img src="https://raw.githubusercontent.com/GeorgeNich/Melbourne-traffic-simulator/main/docs/screenshots/cbd-to-southbank-640.gif" width="100%" alt="Animated replay of simulated traffic moving from Melbourne's CBD to Southbank.">
 
