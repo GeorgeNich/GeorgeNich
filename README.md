@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://georgenich.github.io"><strong>Portfolio</strong></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/georgenicholson1998/">LinkedIn</a> &nbsp;·&nbsp; <a href="mailto:george.nicholson1998@gmail.com">Email</a></p>
 
-I build full-stack web applications, real-time systems and data pipelines. Computer Science graduate from Deakin University, with a software development placement at ITConnexion integrating computer vision into a healthcare application. Open to graduate and junior software engineering roles in Melbourne.
+I build full-stack web applications, real-time systems, data pipelines and computer-vision systems. Computer Science graduate from Deakin University, with a machine learning and full-stack placement at ITConnexion, building real-time wound detection for a healthcare application.
 
 ---
 
@@ -10,7 +10,7 @@ I build full-stack web applications, real-time systems and data pipelines. Compu
 
 <a href="https://georgenich.github.io/#melbourne"><img src="assets/melbourne-wide.jpg" width="100%" alt="Melbourne Traffic Simulator: a 3D replay of traffic through Southbank and the CBD"></a>
 
-3D traffic simulation of central Melbourne. A Python pipeline turns OpenStreetMap and City of Melbourne data into a 3D city and SUMO road network, and a WebGL viewer replays the traffic in the browser.
+3D traffic simulation of central Melbourne. A data pipeline turns OpenStreetMap and City of Melbourne data into a 3D city and road network, and a browser viewer replays the simulated traffic.
 
 - Calibrated against real morning-peak traffic counts from 45 signalised intersections
 - MapLibre and deck.gl share one WebGL depth buffer, so buildings correctly hide traffic behind them
@@ -24,7 +24,7 @@ I build full-stack web applications, real-time systems and data pipelines. Compu
 
 <a href="https://georgenich.github.io/#clearlink"><img src="assets/clearlink.png" width="100%" alt="Clearlink: a three-person video call with the chat panel open"></a>
 
-Peer-to-peer group video calls with screen sharing and chat. A React/TypeScript client and a zero-dependency Node.js signalling server, with audio and video sent directly between browsers over WebRTC and no calling SDK.
+Peer-to-peer group video calls with screen sharing and chat. A web client and a zero-dependency signalling server, with audio and video sent directly between browsers and no calling SDK.
 
 - Deterministic offer ownership and per-peer queues avoid conflicting offers when people join at once
 - Generation tokens stop outdated camera and microphone requests from leaving capture running
@@ -36,23 +36,23 @@ Peer-to-peer group video calls with screen sharing and chat. A React/TypeScript 
 
 ---
 
-### Software development placement · ITConnexion
+### Machine Learning & Full Stack Engineer (Placement) · ITConnexion
 
 <sub>Healthcare software · October 2024 – January 2025 · Melbourne</sub>
 
-Took over an undocumented Laravel/PHP healthcare application and delivered a working wound-tracking product. Integrated a Python FastAPI service using YOLOv8 segmentation to outline wounds and coin, card or ruler references for measurement, and linked the results to patient records, wound history and doctor review.
+Took over an undocumented Laravel/PHP healthcare application and delivered a working wound-tracking product. Built real-time wound detection, with a YOLOv8 model measuring each new photo within seconds and results updating live over WebSockets; delivered automated scale calibration from a detected ruler; and hardened the Python image-analysis API between FastAPI and Laravel.
 
-<sub>Laravel · PHP · Python · FastAPI · YOLOv8 · OpenCV · MySQL</sub>
+<sub>Laravel · PHP · Python · FastAPI · YOLOv8 · OpenCV · MySQL · WebSockets</sub>
 
 ---
 
-<img src="assets/toolkit.png" width="100%" alt="Technical toolkit. Languages: Python, TypeScript, JavaScript, C#, C++, PHP, Swift, Kotlin, Java. Web and application engineering: React, Node.js, Express, Laravel, Filament, FastAPI, REST APIs, WebRTC, Socket.IO, WebSockets. Data and computer vision: PostgreSQL, MySQL, Sequelize, YOLOv8, OpenCV, NumPy, pandas, Jupyter. Simulation and visualisation: SUMO, deck.gl, MapLibre, geospatial processing, 3D playback, data provenance, schema validation. Systems and delivery: Git, Docker, AWS EC2, Linux, concurrency, parallel programming, PThreads, OpenMP, MPI, OpenCL. Design and verification: requirements, UML, data modelling, Playwright, pytest, PHPUnit, Pest, API testing, static analysis, code review.">
+<img src="assets/toolkit.png" width="100%" alt="Technical toolkit. Languages: Python, TypeScript, JavaScript, C#, C++, PHP, Swift, Kotlin, Java. Web and application engineering: React, Node.js, Express, Laravel, Filament, FastAPI, REST APIs, WebRTC, Socket.IO, WebSockets. Machine learning and data: PyTorch, scikit-learn, YOLOv8, OpenCV, NumPy, pandas, PostgreSQL, MySQL, Sequelize. Simulation and visualisation: SUMO, deck.gl, MapLibre, geospatial processing, 3D playback, data provenance, schema validation. Systems and delivery: Git, Docker, AWS EC2, Linux, concurrency, parallel programming, PThreads, OpenMP, MPI, OpenCL. Design and verification: requirements, UML, data modelling, Playwright, pytest, PHPUnit, Pest, API testing, static analysis, code review.">
 
 ---
 
 ### Computer Science foundations
 
-**Bachelor of Computer Science** · Deakin University · completed September 2025<br>Diploma of Computing · Deakin College
+**Bachelor of Computer Science** · Deakin University · completed September 2025<br>High Distinctions in IT Placements, Professional Practice and IT Innovation; IoT capstone (High Distinction)<br>Diploma of Computing · Deakin College
 
 | Area | Selected work |
 | --- | --- |
