@@ -1,18 +1,16 @@
 <img src="assets/profile-banner.svg" width="100%" alt="George Nicholson — Computer Science graduate in Melbourne. Software engineering, data and systems.">
 
-<p align="center"><a href="https://github.com/GeorgeNich?tab=repositories">Explore my work</a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/georgenicholson1998/">LinkedIn</a> &nbsp; · &nbsp; <a href="mailto:george.nicholson1998@gmail.com">Email</a></p>
+<p align="center"><a href="https://georgenich.github.io"><strong>Portfolio</strong></a> &nbsp; · &nbsp; <a href="https://github.com/GeorgeNich?tab=repositories">Explore my work</a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/georgenicholson1998/">LinkedIn</a> &nbsp; · &nbsp; <a href="mailto:george.nicholson1998@gmail.com">Email</a></p>
 
-<p align="center"><a href="#selected-software-projects">Projects</a> &nbsp; · &nbsp; <a href="#it-placement">IT Placement</a> &nbsp; · &nbsp; <a href="#technical-toolkit">Technical Toolkit</a> &nbsp; · &nbsp; <a href="#computer-science-foundations">Computer Science Foundations</a></p>
+<p align="center"><a href="#selected-software-projects">Projects</a> &nbsp; · &nbsp; <a href="#it-placement">Placement</a> &nbsp; · &nbsp; <a href="#technical-toolkit">Technical Toolkit</a> &nbsp; · &nbsp; <a href="#computer-science-foundations">Computer Science Foundations</a></p>
 
-## Computer Science Graduate · Software Development
+## Full-stack Developer · Computer Science Graduate
 
-I'm **George Nicholson**, a Bachelor of Computer Science graduate from **Deakin University**, based in Melbourne. I build applications that connect interfaces, data and the systems behind them rangingfrom real-time browser communication to geospatial pipelines and interactive 3D simulation.
+I'm **George Nicholson**, a Bachelor of Computer Science graduate from **Deakin University**, based in Melbourne. I build full-stack web applications, real-time systems and data pipelines, from peer-to-peer browser video calling to geospatial processing and interactive 3D simulation.
 
-My experience spans independent software projects, an **IT placement at ITConnexion working on a healthcare application**, and university work in algorithms, concurrent programming, machine learning and embedded systems.
+My experience spans independent software projects, a **software development placement at ITConnexion on a healthcare application**, and university work in algorithms, concurrent programming, machine learning and embedded systems.
 
-I enjoy understanding an unfamiliar system, breaking down the problem, building across its layers and checking how it behaves when things go wrong.
-
-**Open to graduate and junior software engineering opportunities in Melbourne**, with interests in full-stack development, backend systems and applied machine learning.
+**Open to graduate and junior software engineering roles in Melbourne**: full-stack, backend and applied machine learning. See my portfolio at **[georgenich.github.io](https://georgenich.github.io)**.
 
 ---
 
@@ -26,7 +24,7 @@ I enjoy understanding an unfamiliar system, breaking down the problem, building 
 
 **A browser-based 3D simulation and visualisation of Melbourne's CBD, Southbank and Docklands.** Open geospatial data, Python processing and SUMO simulation feed an interactive replay built with React, TypeScript, deck.gl and MapLibre.
 
-**My contribution:** designed and developed the project across geospatial processing, simulation exports and the browser viewer, investigating data/geometry issues and validating the connections between those layers.
+**My contribution:** designed and developed the project across geospatial processing, simulation exports and the browser viewer, investigating data/geometry issues and validating the connections between those layers. The simulation was also calibrated against real morning-peak traffic counts from 45 signalised intersections.
 
 #### Technical Highlights
 
@@ -38,32 +36,30 @@ I enjoy understanding an unfamiliar system, breaking down the problem, building 
 
 <img src="assets/melbourne-architecture.svg" width="100%" alt="Open geography and elevation → Python processing and validation → SUMO paths and road-speed exports → React, deck.gl and MapLibre browser replay.">
 
-**Public release:** real geography with synthetic baseline demand. Prepared data is included, so viewing the demo does not require raw source downloads or a running SUMO process. Scope and known geometry limitations are documented in the repository.
+**Public release:** a simulated traffic replay over real Melbourne geography. Prepared data is included, so the demo runs in the browser without Python or SUMO.
 
 **Python · SUMO · React · TypeScript · deck.gl · MapLibre**
 
 **[Explore the code, architecture and setup →](https://github.com/GeorgeNich/Melbourne-traffic-simulator)**
 
-### ClearLink
+### Clearlink
 
 **Video calls that start with a link.** Account-free group video, screen sharing, in-call chat, device preview and switching, with desktop and phone layouts.
 
-[<img src="assets/clearlink-showcase.svg" width="100%" alt="ClearLink: browser video calling and chat. Up to five people in a WebRTC mesh, with native Node.js signalling.">](https://github.com/GeorgeNich/clearlink)
+[<img src="assets/clearlink-showcase.svg" width="100%" alt="Clearlink: browser video calling and chat. Up to five people in a WebRTC mesh, with zero-dependency Node.js signalling.">](https://github.com/GeorgeNich/clearlink)
 
-**My contribution:** designed and developed the React/TypeScript application and native Node.js signalling service, including peer negotiation, device lifecycle handling, connection recovery and browser verification.
+**My contribution:** designed and developed the React/TypeScript application and a zero-dependency Node.js signalling service, with no calling SDK or media server, including peer negotiation, device lifecycle handling, connection recovery and browser verification.
 
 #### Technical Highlights
 
 - **WebRTC from the protocol up:** a full mesh of direct browser media connections, with deterministic offer ownership and per-peer queues to manage negotiation collisions.
 - **Media lifecycle:** generation tokens and per-device request counters stop superseded camera/microphone requests from leaving capture running after navigation.
 - **Independent audio and video:** an available device remains usable when the other is absent or permission is denied.
-- **A small signalling backend:** native Node.js modules, in-memory rooms and HTTP long polling coordinate setup and chat. Call media travels directly between browsers.
+- **A small signalling backend:** zero-dependency Node.js (built-in modules only), in-memory rooms and HTTP long polling coordinate setup and chat. Call media travels directly between browsers.
 - **Connection recovery:** ICE restart retries retain peer connections, media settings and room membership while the server session remains valid.
-- **Browser verification:** the documented Chrome test exercises a five-person call and checks that audio and video reach the participants.
+- **Verification:** Node tests plus a five-person Playwright call test that checks audio and video reach every participant; also tested by hand across networks, including mobile data.
 
 <img src="assets/clearlink-architecture.svg" width="100%" alt="Connection setup: browser clients, Node signalling, peer negotiation and direct WebRTC media. Media does not travel through Node.">
-
-**Scope:** up to five people per room; direct connectivity without a TURN relay. Network, process-lifetime and browser-coverage limits are explained in the repository.
 
 **TypeScript · React · WebRTC · Node.js · Playwright**
 
@@ -73,18 +69,18 @@ I enjoy understanding an unfamiliar system, breaking down the problem, building 
 
 <a id="it-placement"></a>
 
-## IT Placement · Healthcare Software Development
+## Software Development Placement · Healthcare
 
 **ITConnexion · October 2024 – January 2025**
 
-During my IT placement, I worked on an existing Laravel/PHP healthcare application for wound tracking and measurement. My contribution combined understanding the inherited system with integrating computer vision and image-measurement workflows into the application.
+Took over an undocumented Laravel/PHP healthcare application and delivered a working wound-tracking product: AI-assisted measurement from photos, wound history, and doctor and patient/admin dashboards. Implemented independently, with mentor oversight and daily Scrum stand-ups alongside a team in Indonesia.
 
 - **System understanding:** reverse-engineered the existing codebase and mapped its structure and workflows using high- and low-level UML.
 - **Computer-vision integration:** integrated a Python FastAPI service using YOLOv8 segmentation with the Laravel application.
 - **Measurement workflows:** implemented coin, card and ruler reference methods to convert image annotations into wound dimensions and area, including user-guided ruler calibration.
 - **Interactive annotation:** built automatic and manual annotation workflows, with real-time annotation via WebSockets.
 - **Application integration:** connected the work to patient/wound records, appointment history, measurement visualisation and reporting.
-- **Development practices:** applied testing and TDD practices while extending the existing application.
+- **API testing:** tested the image-analysis API in Postman against expected responses, and traced and fixed integration issues between FastAPI and Laravel.
 
 **Laravel · PHP · Python · FastAPI · YOLOv8 · OpenCV · MySQL · WebSockets**
 
@@ -98,10 +94,10 @@ Tools and concepts I've worked with across independent projects, my IT placement
 
 **Explore the work behind the toolkit**
 
-- **Applications and APIs:** [ClearLink's WebRTC application and signalling backend](https://github.com/GeorgeNich/clearlink) · [Healthcare placement](#it-placement).
+- **Applications and APIs:** [Clearlink's WebRTC application and signalling backend](https://github.com/GeorgeNich/clearlink) · [Healthcare placement](#it-placement).
 - **Data, simulation and visualisation:** [Melbourne Traffic Simulator](https://github.com/GeorgeNich/Melbourne-traffic-simulator) · [Data wrangling](https://github.com/GeorgeNich/SIT220-Data-Wrangling-and-Analysis) · [Machine learning](https://github.com/GeorgeNich/SIT307-Data-Mining-and-Machine-Learning).
 - **Languages, systems and algorithms:** [Concurrent programming](https://github.com/GeorgeNich/SIT315-Concurrent-Distributed-Programming) · [C# data structures](https://github.com/GeorgeNich/SIT221-Data-Structures-and-Algorithms) · [Object-oriented programming](https://github.com/GeorgeNich/SIT232-Object-Oriented-Programming) · [Embedded systems](https://github.com/GeorgeNich/SIT210-Embedded-Systems-Development).
-- **Design and verification:** [Melbourne's pipeline and checks](https://github.com/GeorgeNich/Melbourne-traffic-simulator#engineering-the-simulator) · [ClearLink's architecture and browser tests](https://github.com/GeorgeNich/clearlink#architecture--engineering) · [Placement contribution](#it-placement).
+- **Design and verification:** [Melbourne's pipeline and checks](https://github.com/GeorgeNich/Melbourne-traffic-simulator#engineering-the-simulator) · [Clearlink's architecture and browser tests](https://github.com/GeorgeNich/clearlink#architecture--engineering) · [Placement contribution](#it-placement).
 
 <details>
 <summary><strong>Explore the toolkit in detail</strong></summary>
@@ -128,7 +124,7 @@ Git, Docker, AWS EC2 and Linux environments. University foundations include PThr
 
 #### Design and verification
 
-Requirements analysis, UML, relational data modelling, API contracts, test-driven development, code review and static analysis. Tools across the work include Playwright, pytest, PHPUnit, Pest, PHPStan/Larastan and language-specific checks.
+Requirements analysis, UML, relational data modelling, API contracts, automated testing, code review and static analysis. Tools across the work include Playwright, pytest, PHPUnit, Pest, PHPStan/Larastan and language-specific checks.
 
 </details>
 
@@ -152,14 +148,8 @@ Practical implementations and analyses grouped by subject:
 | **Data wrangling and analysis** | [Python, NumPy, pandas and exploratory analysis](https://github.com/GeorgeNich/SIT220-Data-Wrangling-and-Analysis) |
 | **Object-oriented programming** | [C# and C++: inheritance, polymorphism and application design](https://github.com/GeorgeNich/SIT232-Object-Oriented-Programming) |
 
-## Public work
-
-[<img src="assets/public-work.svg" width="100%" alt="Public GitHub snapshot, 29 October 2026: 11 public repositories, independent real-time and simulation builds, and selected programming languages. This is a dated snapshot.">](https://github.com/GeorgeNich?tab=repositories)
-
 ## Let's connect
-
-I'm interested in opportunities to build useful software, work through difficult technical problems and develop further as an engineer.
 
 **Melbourne, Australia · Graduate and junior software engineering opportunities**
 
-[LinkedIn](https://www.linkedin.com/in/georgenicholson1998/) · [Email](mailto:george.nicholson1998@gmail.com) · [Browse my repositories](https://github.com/GeorgeNich?tab=repositories)
+[Portfolio](https://georgenich.github.io) · [LinkedIn](https://www.linkedin.com/in/georgenicholson1998/) · [Email](mailto:george.nicholson1998@gmail.com) · [Browse my repositories](https://github.com/GeorgeNich?tab=repositories)
