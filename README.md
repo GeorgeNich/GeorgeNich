@@ -4,9 +4,7 @@
 
 <p align="center"><a href="#selected-software-projects">Projects</a> &nbsp; · &nbsp; <a href="#it-placement">Placement</a> &nbsp; · &nbsp; <a href="#technical-toolkit">Technical Toolkit</a> &nbsp; · &nbsp; <a href="#computer-science-foundations">Computer Science Foundations</a></p>
 
-## Full-stack Developer · Computer Science Graduate
-
-I'm **George Nicholson**, a Bachelor of Computer Science graduate from **Deakin University**, based in Melbourne. I build full-stack web applications, real-time systems and data pipelines, from peer-to-peer browser video calling to geospatial processing and interactive 3D simulation.
+I build full-stack web applications, real-time systems and data pipelines, from peer-to-peer browser video calling to geospatial processing and interactive 3D simulation.
 
 My experience spans independent software projects, a **software development placement at ITConnexion on a healthcare application**, and university work in algorithms, concurrent programming, machine learning and embedded systems.
 
